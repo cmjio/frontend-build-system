@@ -75,14 +75,14 @@ module.exports = function(grunt){
       compile: {
         options: {
           console: false
-        }.
+        },
         files: {
-          '<%= dirs.build %>js/<%= pkg.name %>.build.min.js': '<%= dirs.build %>js/<%= pkg.name %>.min.js', // 1:1 compile
+          '<%= dirs.build %>js/<%= pkg.name %>.build.min.js': '<%= dirs.build %>js/<%= pkg.name %>.min.js'
         }
       },
       options: {
         console: false,
-        debugger: false
+        debugger: false,
         pragmas: ['development', 'validation'],
         namespace: ['App.logger'],
         replace: '"0"'
