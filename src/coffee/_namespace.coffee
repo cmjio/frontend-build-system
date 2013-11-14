@@ -1,1 +1,1 @@
-window.xlm ?= {}
+window.MY_NAMESPACE ?= {}

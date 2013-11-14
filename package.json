@@ -2,7 +2,7 @@
   "name": "application",
   "version": "0.0.1",
   "private": true,
-  "description": "custom web components library",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": ""
