@@ -1,7 +1,7 @@
 frontend-build-system
 =====================
 
-A base setup for my frontend projects. Coffeescript and LESS are used in this setup meaning no dependancy on Ruby.
+A base setup for my frontend projects. Coffeescript and LESS are used in this setup meaning no dependancy on Ruby. If you wisth to to use SASS or SCSS then make sure to swap out `grunt-contrib-less` for `grunt-contrib-sass` and change the configuration to suit.
 
     npm install
 
